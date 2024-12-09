@@ -66,8 +66,25 @@ public class VCS {
            git init
 
 
+  However, by default, the git repo won't save anything. The git repository creates a 'stage' with all the files
+  that exist in this folder. This stage has information about which aren't tracked yet at all, which are tracked
+  and have been changed, and which will be added/removed. We can always view the current status of the stage with
+  the 'git status' command.
 
-    */
+
+        If we want to save a file, we have to do two steps:
+           - Add the file to the list of things from our stage that we want to commit.
+           - Perform the actual commit.
+
+
+
+    There are a few different ways to add the file. We can either use 'git add <file>' in the terminal, right click
+    the file and select add, or go directly to the commit dialog and check all the checkboxes for the files we want
+    to commit.
+
+    Then, we can commit, either by typing 'git commit -m "<message>"', or by going to the Git menu and selecting the
+    "Commit" option. In the commit dialog, we're able to write a helpful descriptive message of the changes we made.
+      */
 
     }
 
