@@ -110,7 +110,15 @@ public class VCS {
                  */
 
 
-                 
+
+                 /*
+                  
+        What if we wanted to get the best of both worlds, and have all the changes from both branches of the history?
+        We can do that with one final command for today: git merge. Git merging lets us take two different branches, and
+        squash their changes together.
+ 
+
+                  */
 
 
     }
