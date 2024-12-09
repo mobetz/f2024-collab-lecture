@@ -65,7 +65,6 @@ public class VCS {
 
            git init
 
-
   However, by default, the git repo won't save anything. The git repository creates a 'stage' with all the files
   that exist in this folder. This stage has information about which aren't tracked yet at all, which are tracked
   and have been changed, and which will be added/removed. We can always view the current status of the stage with
@@ -85,6 +84,34 @@ public class VCS {
     Then, we can commit, either by typing 'git commit -m "<message>"', or by going to the Git menu and selecting the
     "Commit" option. In the commit dialog, we're able to write a helpful descriptive message of the changes we made.
       */
+
+
+
+               /*
+
+              Now, let's go take a look at our stage again.
+              We can see that our VCS.java file appears in the list of unstaged changes. Let's take a look at what the file
+              looks like when we view it.
+              Our file is showing us line by line what changed in the file:
+                 - Green lines are the 'new' version of the code.
+                 - Grey are the 'old' version of the code.
+                 - Red are lines REMOVED in the 'new' version.
+            
+                 
+        In addition to viewing this in IntelliJ, we can view the same thing using the 'git diff' command.
+        To save the changes and my second version of the command, I can just create a second commit.
+
+        Now, let's go look at our log again.
+
+        In the log, we can see that both changes are listed.
+        If we right click on the files on the right of the panel, we can compare the version from any commit to the
+        current version of the file. (we can also do this with git diff -c <commit_id>.)
+
+                 */
+
+
+                 
+
 
     }
 
