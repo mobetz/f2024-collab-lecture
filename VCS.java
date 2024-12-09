@@ -110,19 +110,6 @@ public class VCS {
                  */
 
 
-
-                 /*
-                  
-        What if we wanted to get the best of both worlds, and have all the changes from both branches of the history?
-        We can do that with one final command for today: git merge. Git merging lets us take two different branches, and
-        squash their changes together.
- 
-
-                  */
-
-
-
-
               /*
 
         If we want to 'rewind' time, we are able to do that by 'checking out' to reload an earlier one of our save
@@ -138,6 +125,18 @@ public class VCS {
         Braches make it really easy to 'experiment' with different solutions, and test out which one is the best/preferred without losing
         all the other changes that you had made before.
         */
+
+
+
+                 /*
+                  
+        What if we wanted to get the best of both worlds, and have all the changes from both branches of the history?
+        We can do that with one final command for today: git merge. Git merging lets us take two different branches, and
+        squash their changes together.
+ 
+
+                  */
+
     }
 
 }
