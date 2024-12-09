@@ -95,6 +95,10 @@ public class VCS {
 
         Before we do that, we should make sure we save everything we're working on right now to a commit!
 
+        Once I checkout, I should also create a branch at that point and checkout that branch using the 'git branch <branch_name>' command.
+
+        You can also list branches just by typing 'git branch' alone.
+
 
         */
     }
