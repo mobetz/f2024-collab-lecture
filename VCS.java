@@ -100,6 +100,8 @@ public class VCS {
         You can also list branches just by typing 'git branch' alone.
 
 
+        Braches make it really easy to 'experiment' with different solutions, and test out which one is the best/preferred without losing
+        all the other changes that you had made before.
         */
     }
 
