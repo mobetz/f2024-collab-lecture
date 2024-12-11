@@ -41,6 +41,18 @@ public class Collaboration {
          Now that we've done this, we're ready to link our code to this remote repo. On the command line,
          we can do this by typing 'git remote add <name> <url>'.
 
+        Once we've set up a remote branch, we're able to "push" our changes to the remote branch.
+        We can do this by typing "git push origin main" on the command line.
+
+        NOTE: only code that exists in a commit can be pushed. Unstaged changes stay local until you commit them.
+
+
+        We can see that only the branch we pushed is visible to github, and right now github has a linear view of our
+        history. However, every commit is visible, and we can see the whole history of our repository.
+
+         We can see that every time we commit, the changes don't make it to the server until we push again. In fact,
+        in our Log history, we can even see where the "remote" copy of master lives.
+
 
         */
     }
