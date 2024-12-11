@@ -53,11 +53,18 @@ public class Collaboration {
          We can see that every time we commit, the changes don't make it to the server until we push again. In fact,
         in our Log history, we can even see where the "remote" copy of master lives.
 
-        
+
         If I want a copy of a repo that I find on a remote repository like Github, I can
         clone it with git clone <path_to_repo>.
 
 
         */
+
+
+
+        /*
+         * We can merge remote branches the same way that we merge local ones.
+         * This is necessary if both sides have made a change at the same time.
+         */
     }
 }
