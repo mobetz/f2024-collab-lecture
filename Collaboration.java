@@ -19,5 +19,29 @@ public class Collaboration {
     
     public static void main(String[] args) {
 
+        /*
+        Last class, we had discussed tracking changes over time using a version control system.
+        We had seen how we can use git to create a 'commit'.
+
+        These commits let us create a saved point in the history of our code that we could rewind to or branch off of.
+
+
+        Today, we're going to see how we can link our local git changes to a remote server so that the code can be
+        shared to the public.
+
+
+        In order to share a repository, we first have to add a 'remote' URL to the repository. However, before we do that,
+         we have to create a remote copy of the repository. This can be done by creating your own git server on a
+         computer somewhere, but more often, we use a website like GitHub, GitLab, or BitBucket.
+
+
+         Once we create an account and log in, we have the ability to generate new uniquely-named repositories with the
+         click of a button.
+
+         Now that we've done this, we're ready to link our code to this remote repo. On the command line,
+         we can do this by typing 'git remote add <name> <url>'.
+
+
+        */
     }
 }
