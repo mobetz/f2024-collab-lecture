@@ -57,7 +57,9 @@ public class Collaboration {
         If I want a copy of a repo that I find on a remote repository like Github, I can
         clone it with git clone <path_to_repo>.
 
+        Note: if we try to push to a repo that we haven't pulled from and there are changes we don't know about, the push
+        will fail and we'll get a warning that we need to pull first.
+         */
 
-        */
     }
 }
